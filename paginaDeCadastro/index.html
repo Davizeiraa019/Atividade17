@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <header>
+        <h1>Crie sua conta na TechStore Brasil</h1>
+        <h2>Faça seu cadastro e fique por dentro das principais ofertas do mundo tech!</h2>
+    </header>
+    </header>
+    <nav class="navenovo">
+
+        <a href="../index.html" class="logo_site">
+            <img src="../img/logosite.png" alt="Logo TechStore">
+            <span>TechStore</span>
+        </a>
+
+        <div class="nav-links">
+            <a href="../paginaDeRecuperacaoDeSenha/index.html" class="btn btn-outline-primary">Esqueci minha senha</a>
+        </div>
+
+        <a href="./paginaDeLogin/index.html" class="btn btn-outline-primary">Entrar</a>
+
+    </nav>
+    <main>
+        <section>
+
+
+            <form onsubmit="alert('Cadastro efetuado com sucesso'); return false;">
+
+                <img src="../img/cadastronovo.png" width="600" height="600">
+
+                <label>Nome</label>
+                <input type="text" required placeholder="Digite seu nome completo" maxlength="100">
+
+                <label>Data de nascimento</label>
+                <input type="date" required>
+
+                <label>E-mail</label>
+                <input type="email" required placeholder="Digite seu e-mail" maxlength="250">
+
+                <label>Crie uma senha</label>
+                <input type="password" required placeholder="Crie sua senha" maxlength="50">
+
+                <label>Confirme sua senha</label>
+                <input type="password" required placeholder="Confirme sua senha" maxlength="50">
+
+                <label>RG</label>
+                <input type="text" required placeholder="Digite seu RG" maxlength="12">
+
+                <label>CPF</label>
+                <input type="text" required placeholder="Digite seu CPF" maxlength="14">
+
+                <label>Endereço</label>
+                <input type="text" required placeholder="Digite seu endereço" maxlength="200">
+
+                <label>CEP</label>
+                <input type="text" required placeholder="Digite seu CEP" maxlength="9">
+
+                <label>Cidade</label>
+                <input type="text" required placeholder="Digite o nome da cidade" maxlength="30">
+
+                <label>Estado</label>
+                <input type="text" required placeholder="Digite a UF de seu estado" maxlength="2">
+
+                <label>País</label>
+                <input type="text" required placeholder="Digite seu País" maxlength="40">
+                <button type="button" class="btn btn-info">Enviar</button>
+            </form>
+        </section>
+
+    </main>
+    <footer>
+        <p>&copy; 2026 TechStore Brasil. Todos os direitos reservados</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
